@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "prepublish": "babel src --out-dir lib --presets es2015",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
