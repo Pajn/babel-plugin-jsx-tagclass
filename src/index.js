@@ -12,9 +12,11 @@ export default function ({ types: t }) {
 
           if (!className) {
             node.openingElement.attributes.push(
-              t.jSXAttribute(t.jSXIdentifier('className')),
-              t.jSXExpressionContainer(
-                t.memberExpression(t.identifier('styles'), t.identifier(name))
+              t.jSXAttribute(
+                t.jSXIdentifier('className'),
+                t.jSXExpressionContainer(
+                  t.memberExpression(t.identifier('styles'), t.identifier(name))
+                )
               )
             );
           }

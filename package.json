@@ -1,6 +1,6 @@
 {
-  "name": "babel-plugin-css-jsx-tagclass",
-  "version": "1.0.0",
+  "name": "babel-plugin-jsx-tagclass",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
